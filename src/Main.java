@@ -17,12 +17,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CreateWorkers();
+        createWorkers();
 
         showMainMenu();
     }
 
-    private static void CreateWorkers() {
+    private static void createWorkers() {
 
         actors.add(new Actor("Иван", "Петров", Gender.MALE, 185));
         actors.add(new Actor("Мария", "Сидорова", Gender.FEMALE, 170));

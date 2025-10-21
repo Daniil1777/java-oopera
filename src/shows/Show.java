@@ -56,6 +56,7 @@ public class Show {
     public List<Actor> getListOfActors() {
         return new ArrayList<>(listOfActors);
     }
+    
     public boolean hasActorWithSurname(String surname) {
         for (Actor actor : listOfActors) {
             if (actor.getSurname().equals(surname)) {
